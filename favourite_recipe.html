@@ -1,14 +1,23 @@
-<DOCTYPE html> 
+<!DOCTYPE html> 
 
 <html> 
-<head> 
-<title>Favourite Recipe</title>
-<link rel="stylesheet" href="style.css">
-</head>
+	<head> 
+		<title>Favourite Recipe</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script text="text/javascript" src="script.js"></script>
+
+<!-- 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+		<script src='jquery-2.2.3.min.js'></script> -->
+
+	</head>
 
 <body>
 <div>
 	<h1>Sweet and Sour Pork</h1>
+	<form> 
+		<input type="checkbox" name="toggle-pictures" value=false id="hide-pic">Would you like to hide pictures?<br>
+	</form>
 
 	<section id = "Description">
 		<h3>Recipe Submitted by: PAM_1 on allrecipes.com</h3>
@@ -22,7 +31,31 @@
 	<section id ="Ingredients">
 		<h2>Ingredients</h2>
 
-		<ul> 
+		
+		<form>
+			<input type="checkbox" name="ingredient" value=false>1 pound pork butt, cut into 1 inch cubes<br>
+			<input type="checkbox" name="ingredient" value=false>1 teaspoon salt<br>
+			<input type="checkbox" name="ingredient" value=false>1 teaspoon soy sauce<br>
+			<input type="checkbox" name="ingredient" value=false>1 egg white<br>
+			<input type="checkbox" name="ingredient" value=false>2 green onions, chopped<br>
+			<input type="checkbox" name="ingredient" value=false>1 quart vegetable oil for frying<br>
+			<input type="checkbox" name="ingredient" value=false>1/2 cup cornstarch<br>
+			<input type="checkbox" name="ingredient" value=false>1 tablespoon vegetable oil<br>
+			<input type="checkbox" name="ingredient" value=false>3 stalks celery, cut into 1/2 inch pieces<br>
+			<input type="checkbox" name="ingredient" value=false>1 medium green bell pepper, cut into 1 inch pieces<br>
+			<input type="checkbox" name="ingredient" value=false>1 medium onion, cut into wedges<br>
+			<input type="checkbox" name="ingredient" value=false>white sugar to taste<br>
+			<input type="checkbox" name="ingredient" value=false>salt to taste<br>
+			<input type="checkbox" name="ingredient" value=false>1 cup of water<br>
+			<input type="checkbox" name="ingredient" value=false>1/4 teaspoon salt<br>
+			<input type="checkbox" name="ingredient" value=false>3/4 cup white sugar<br>
+			<input type="checkbox" name="ingredient" value=false>1/3 cup apple cider vinegar<br>
+			<input type="checkbox" name="ingredient" value=false>1/4 ketchup<br>
+			<input type="checkbox" name="ingredient" value=false>1/2 teaspoon soy sauce<br>
+			<input type="checkbox" name="ingredient" value=false>1 (8 ounce) can pinapple chunks, undrained<br>
+			<input type="checkbox" name="ingredient" value=false>2 tablespoons cornstarch<br>
+			<input type="checkbox" name="ingredient" value=false>1/4 cup water
+<!-- 		<ul>
 			<li>1 pound pork butt, cut into 1 inch cubes</li>
 			<li>1 teaspoon salt</li>
 			<li>1 teaspoon soy sauce</li>
@@ -46,6 +79,8 @@
 			<li>2 tablespoons cornstarch</li>
 			<li>1/4 cup water</li>
 		</ul>
+ -->		</form>
+
 	</section>
 
 	<section> 
