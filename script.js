@@ -9,4 +9,14 @@ $(document).ready(function() {
   		$('img').show();
   	}
   });
+  // $('ingredient').each(function() {
+  // 	if ($(this).val()) {
+  // 		$(this).hide()
+  // 	}
+  // })
+  
+  $('li').click(function() {
+  	$(this).toggle('highlight');
+	console.log("clicked!");
+  });
 });
